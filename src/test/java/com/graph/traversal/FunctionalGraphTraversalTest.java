@@ -6,7 +6,7 @@ import com.graph.GraphTraversal;
 public class FunctionalGraphTraversalTest extends AbstractGraphTraversalTest {
 
 	@Override
-	protected GraphTraversal configureGraphTraversal() {
+	public GraphTraversal configureGraphTraversal() {
 		return new FunctionalGraphTraversal();
 	}
 
